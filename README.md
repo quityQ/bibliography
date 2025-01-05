@@ -3,7 +3,7 @@ This repository contains the data and code used in the paper "Success Measuremen
 Further, this repository serves as a demonstration of bibliometric analysis using Python and free to use data sources.
 
 ## Data
-Data is sourced from Scopus [https://www.scopus.com/search/form.uri?display=advanced]. A institutional login is required to access the search.
+Data is sourced from [Scopus](https://www.scopus.com/search/form.uri?display=advanced). A institutional login is required to access the search.
 Scopus allows to export the search results as a BibTeX file. We exported BibTeX including all the possible metadata. In order to get the refenrece data in a format where we can work with it, the data must be exported as a CSV file.
 The data is stored is the 'data' folder as 'scopusXX.bib' and 'scopusXX.csv'. XX represents the number of the query used for the search. The query is also visible in the analysis notebook.
 
@@ -17,7 +17,7 @@ The tool is available to use in the 'tools/transform.ipynb' notebook. The same e
 The requirements for the code are stored in the 'requirements.txt' file.
 The code is stored in the 'analysis' folder. The code is written in Jupyter Notebook format.
 
-The main tool used for the analysis is 'PyBibX' [https://github.com/Valdecy/pybibx]. All information on how to setup and use the tool can be found in their repository.
+The main tool used for the analysis is [PyBibX](https://github.com/Valdecy/pybibx). All information on how to setup and use the tool can be found in their repository.
 We have prepared two notebook templates for our purposes.
 The first one is 'analysis_template.ipynb'. This notebook contains most of the general analysis methods that PyBibX offers.
 The second one is 'demo_analysis_template.ipynb'. This notebook is a condensed version of the first one and includes only the most important methods for our analysis.
